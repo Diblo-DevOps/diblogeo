@@ -16,10 +16,10 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='diblogeo',
-    version='0.0.1rc1',
+    version='0.1.0rc1',
     description='Python Geolocation API',
     long_description=long_description,
-    url='https://github.com/pypa/sampleproject',
+    url='https://pypi.python.org/pypi/diblogeo',
     author='Henrik Ankersoe',
     author_email='henrik@diblo.dk',
     license='GPL v3',
