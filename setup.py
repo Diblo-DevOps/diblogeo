@@ -15,7 +15,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='Diblo Geo',
+    name='diblogeo',
     version='0.0.1rc1',
     description='Python Geolocation API',
     long_description=long_description,
@@ -34,5 +34,4 @@ setup(
     ],
     keywords='geocode geocoding geographical maps earth distance bearing',
     packages=find_packages(exclude=['tests*']),
-    install_requires=['math'],
 )

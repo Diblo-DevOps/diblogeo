@@ -3,23 +3,22 @@ __________
 
 Diblo Geo is a Python 2 api for developer.
 
-Diblo Geo makes it easy for Python developers to calculate coordinates
-and bearing across the globe.
+Diblo Geo makes it easy for Python developers to calculate coordinates and bearing across the globe.
 
 Diblo Geo is tested against CPython 2.7.
 
-License: The GNU General Public License v3.0.
+`Development site <https://github.com/Diblo/diblogeo>`__.
 
-© Diblo Geo - 2016
+© Diblo Geo contributors 2016 under the `The GNU General Public License v3.0 <https://github.com/Diblo/diblogeo/blob/master/LICENSE.txt>`__.
 
 Installation
 -----------------------------
 
-Install using [pip](http://www.pip-installer.org/en/latest/) with:
+Install using `pip <http://www.pip-installer.org/en/latest/>`__ with:
 
-    pip install git+https://github.com/Diblo/diblogeo.git
+    pip install diblogeo
 
-Or, [download source archive from GitHub](https://github.com/Diblo/diblogeo).
+Or, `download a wheel or source archive from PyPI <https://pypi.python.org/pypi/diblogeo>`__.
 
 Measuring Distances
 -----------------------------

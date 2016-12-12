@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*-
 import math
 
+__all__ = ['pass_dms', 'dms2dd', 'dd2dms', 'Point']
+
+__version__ = '0.0.1rc1'
+__author__ = 'Henrik Ankersø <henrik@diblo.dk'
+
 convert_tabel = {
     'km': 1,
     'kilometers': 1,
