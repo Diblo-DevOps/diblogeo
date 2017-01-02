@@ -8,7 +8,7 @@ from diblogeo.util import _convert_to_km, _round, Point, Bounding, \
 
 __all__ = ['Geo', 'calc_earth_radius', 'pass_dms', 'dms2dd', 'dd2dms', 'Point']
 
-__version__ = '0.1.0rc2'
+__version__ = '0.1.0rc3'
 __author__ = 'Henrik Ankersø <henrik@diblo.dk'
 
 class Geo(object):

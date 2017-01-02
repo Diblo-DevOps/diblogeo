@@ -5,7 +5,7 @@ from decimal import Decimal
 
 __all__ = ['pass_dms', 'dms2dd', 'dd2dms', 'Point']
 
-__version__ = '0.1.0rc2'
+__version__ = '0.1.0rc3'
 __author__ = 'Henrik Ankersø <henrik@diblo.dk'
 
 convert_tabel = {
@@ -33,8 +33,8 @@ def _point_usable(point):
     if type(point[0]) not in [int, float, Decimal]:
         return (dms2dd(*pass_dms(point[0])),
                 dms2dd(*pass_dms(point[1])),
-                point[2])
-    return point
+                float(point[2]))
+    return (float(point[0]), float(point[1]), float(point[2]))
 
 def _convert_to_km(value, unit):
     return value * convert_tabel[unit]
