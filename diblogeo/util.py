@@ -5,7 +5,7 @@ from decimal import Decimal
 
 __all__ = ['pass_dms', 'dms2dd', 'dd2dms', 'Point']
 
-__version__ = '0.1.0rc1'
+__version__ = '0.1.0rc2'
 __author__ = 'Henrik Ankersø <henrik@diblo.dk'
 
 convert_tabel = {
