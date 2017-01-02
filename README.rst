@@ -71,7 +71,7 @@ Example 1:
     >>> point.destination(37.2, meters=3200)
     (55.3533088458, 10.4772564424, 0)
 
-Example 2 *(Altitude 11.34 meters*):
+Example 2 (*Altitude 11.34 meters*):
 
     >>> from diblogeo import Geo
     >>> point = Geo((55.3303636516, 10.4466164796, 11.34))
@@ -82,7 +82,7 @@ Example 2 *(Altitude 11.34 meters*):
     >>> point.destination(37.2, meters=3200)
     (55.3532680374, 10.4772019082, 11.34)
 
-Calculate Earth's Radius:
+Calculate Earth's Radius
 -----------------------------
     >>> from diblogeo import calc_earth_radius
     >>> earth_radius = calc_earth_radius((55.3303636516, 10.4466164796, 11.34))
@@ -93,7 +93,7 @@ Calculate Earth's Radius:
     >>> print(earth_radius.miles)
     3961.27
 
-More input and output methods:
+More input and output methods
 --------------------------------
     >>> from diblogeo import Geo
     >>> location = Geo(("55° 19' 49.31\"", "10° 26' 47.82\"", 11.34)) \

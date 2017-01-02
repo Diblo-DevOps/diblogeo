@@ -5,3 +5,4 @@ dist
 *.egg-info
 .pypirc
 build.bat
+index.html
