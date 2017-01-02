@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import math
+from decimal import Decimal
 
 __all__ = ['pass_dms', 'dms2dd', 'dd2dms', 'Point']
 
@@ -24,8 +25,12 @@ convert_tabel = {
 
 def _point_usable(point):
     if len(point) < 3:
-        point += (0,)
-    if type(point[0]) != float:
+        try:
+            point += [0]
+        except TypeError:
+            point += (0,)
+
+    if type(point[0]) not in [int, float, Decimal]:
         return (dms2dd(*pass_dms(point[0])),
                 dms2dd(*pass_dms(point[1])),
                 point[2])
